@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-800 text-zinc-300;
+  @apply bg-gradient-to-b from-zinc-900 via-zinc-800 to-zinc-700 text-gray-100;
+  -webkit-font-smoothing: antialiased;
 }
